@@ -1,0 +1,346 @@
+body {
+    color: #111111;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    margin: 0;
+    min-width: 800px;
+    padding: 0;    
+}
+
+a, a:visited {
+    color: #0078d7;
+}
+
+a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.header a {
+    color: white; 
+}
+
+.header a:hover {
+    opacity: unset;
+}
+
+b {
+    font-family: "Segoe UI Semibold";
+    font-weight: normal;
+}
+
+button {
+    font-family: "Segoe UI";
+}
+
+.header {
+    background: #0078d7;
+    color: white;
+    height: 40px;
+    position: relative;
+}
+
+.headerText {
+    font-size: 16px;
+    left: 40px;
+    position: absolute;
+    top: 8px;
+}
+
+.headerNav {
+    position: absolute;
+    right: 84px;
+    top: 10px;
+}
+
+.headerDivider {
+    position: absolute;
+    right: 68px;
+    top: 10px;
+}
+
+.headerButton {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.content {
+    margin: 20px 40px;
+    position: relative;
+}
+
+.footer {
+    background: #0078d7;
+    color: white;
+    height: 40px;
+    position: relative;
+}
+
+.footerText {
+    left: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+.landingText {
+    font-size: 40px;
+}
+
+.landingSubtext {
+    font-size: 20px;
+}
+
+.landingCarousel {
+    background: #efefef;
+    height: 0;
+    margin: 40px 0;
+    padding-bottom: 45%;
+    position: relative;
+}
+
+.landingCarouselArrow {
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    top: calc(50% - 14px);
+}
+
+.landingCarouselArrowRight {
+    right: 12px;
+}
+
+#carousel {
+    width: 100%;
+    overflow:hidden;
+}
+
+#carousel ul {
+    width: 400%;
+    padding: 0;
+    margin: 0;
+}
+
+#carousel ul li {
+    width: 25%;
+    text-align: center;
+    list-style: none;
+    float:	left;
+}
+
+#carousel ul li img {
+    width: 100%;
+}
+
+.landingButton {
+    background: #259eff;
+    color: white;
+    font-size: 16px;
+    padding: 20px 40px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 20px;
+}
+
+.subheader {
+    height: 200px;
+}
+
+.subheaderText {
+    font-family: "Segoe UI Semibold";
+    font-size: 16px;
+    padding: 88px 0;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    font-family: "Segoe UI Semibold";
+    list-style-type: none;
+    padding: 0 24px 0 0;
+    width: 200px;
+}
+
+.submenu {
+    list-style-type: none;
+    padding: 0 0 0 16px;
+}
+
+.menuItem {
+    margin: 4px 8px 12px 0;
+}
+
+.storeContent {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    width: calc(100% - 208px);
+}
+
+.store {
+    border-collapse: separate;
+    border-spacing: 20px;
+    font-size: 14px;
+    table-layout: fixed;
+    width: calc(100% + 20px);
+}
+
+.storeItem {
+    background: #efefef;
+    height: 0;
+    position: relative;
+    width: 10%;
+}
+
+.storeItem:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+
+.storeItemTitle {
+    font-family: "Segoe UI Semibold";
+    left: 8px;
+    position: absolute;
+    top: 8px;
+}
+
+.storeItemPrice {
+    font-family: "Segoe UI Semibold";
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.storeItemPhoto {
+    border: 1px solid black;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+}
+
+.storeItemButton {
+    bottom: 8px;
+    position: absolute;
+    right: 8px;
+}
+
+.storeHeader {
+    background: #efefef;
+    margin: 12px 0;
+    padding: 20px 12px;
+}
+
+.summary,
+.controls {
+    display: inline-block;
+}
+
+.summary {
+    width: calc(100% - 404px);
+}
+
+.controls {
+    text-align: right;
+    width: 400px;
+}
+
+.productPhoto {
+    width: 48%;
+}
+
+.productPhoto, .productDetails {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.productDetails {
+    margin: 40px 0;
+    text-align: center;
+    width: 48%;
+}
+
+.productName {
+    font-size: 60px;
+}
+
+.productRatings {
+    font-size: 40px;
+}
+
+.productPrice {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.productDescription {
+    font-size: 24px;
+    font-style: italic;
+    margin: 80px 0;
+}
+
+.productQty {
+    font-size: 16px;
+}
+
+.productQty input {
+    width: 40px;
+}
+
+.productAddBtn {
+    margin: 80px 0;
+}
+
+.cart {
+    display: inline-block;
+    position: relative;
+    width: 800px;
+}
+
+.cart-items {
+    border-spacing: 0 12px;
+    border-collapse: separate;
+    font-size: 24px;
+    table-layout: fixed;
+}
+
+.cart-items td {
+    width: 400px;
+}
+
+.cart-overview {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 800px;
+}
+
+.cart-summary {
+    background: #f8f8f8;
+    border: 1px solid #efefef;   
+    font-size: 24px;
+    padding: 8px;
+}
+
+.cart-summary div {
+    margin: 0 0 12px;
+}
+
+.cart-checkout {
+    display: block;
+    font-size: 16px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1086px) {
+    .content {
+        width: calc(100% - 164px);
+    }
+}
